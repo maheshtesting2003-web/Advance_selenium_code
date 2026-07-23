@@ -1,0 +1,15 @@
+<suite name="group-suite">
+    <test name="test">
+        <groups>
+            <run>
+                <exclude name="smoke" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="typesOfExecution.Demo1Test" />
+            <class name="typesOfExecution.Demo2Test" />
+            <class name="typesOfExecution.Demo3Test" />
+        </classes>
+    </test>
+</suite>
