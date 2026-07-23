@@ -1,0 +1,20 @@
+<suite parallel = "tests" name="ddtSuite">
+	<test name="testRunner1">
+		<classes>
+			<parameter name="bro" value="chrome" />
+			<class name="typesofExecution.Demo4Test" />
+		</classes>
+	</test>
+	<test name="testRunner2">
+		<classes>
+			<parameter name="bro" value="edge" />
+			<class name="typesofExecution.Demo4Test" />
+		</classes>
+	</test>
+	<test name="testRunner3">
+		<classes>
+			<parameter name="bro" value="firefox" />
+			<class name="typesofExecution.Demo4Test" />
+		</classes>
+	</test>
+</suite>
